@@ -1,0 +1,21 @@
+span {
+    background-color: #39ff14;
+}
+
+li {
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    font-size: 1.1em;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px 10px;
+}

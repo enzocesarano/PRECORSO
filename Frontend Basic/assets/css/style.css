@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    font-size: 1em;
+}
+
+.border {
+    display: inline-block;
+    width: 370px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.classicForm div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.classicForm label, .classicForm input {
+    margin: 5px;
+}
+
+.classicForm input {
+    width: 220px;
+}
+
+
+p {
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.condizioni, .button, p, .checkbox {
+    margin: 10px;
+}
+

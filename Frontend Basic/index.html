@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Frontend Basic</title>
+</head>
+
+<body>
+    <div>
+        <h1>Iscriviti ed inizia ad ascoltare!</h1>
+    </div>
+
+    <div class="border">
+        <form onsubmit="alert('Registrazione inviata!')">
+            <div class="classicForm">
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" placeholder="Mario">
+                </div>
+                <div>
+                    <label for="cognome">Cognome</label>
+                    <input type="text" id="cognome" placeholder="Rossi">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="mario@rossi.it">
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="12345">
+                </div>
+                <div>
+                    <label for="dataDiNascita">Data di nascita</label>
+                    <input type="date" id="dataDiNascita">
+                </div>
+                <div>
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" id="telefono" placeholder="+39 3331524652">
+                </div>
+            </div>
+
+            <hr>
+
+            <div>
+                <p>Seleziona i tuoi generi musicali preferiti!</p>
+            </div>
+            <div class="checkbox">
+                <div>
+                    <input type="checkbox" id="hiphop">
+                    <label for="hiphop">Hip Hop</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="jazz">
+                    <label for="jazz">Jazz</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="rock">
+                    <label for="rock">Rock</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="classical">
+                    <label for="classical">Classical</label>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="condizioni">
+                <input type="radio" id="terminiECondizioni">
+                <label for="terminiECondizioni">Accetto i termini e condizioni</label>
+            </div>
+
+            <div class="button">
+                <button type="submit">INVIA</button>
+                <button type="reset">RESET</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

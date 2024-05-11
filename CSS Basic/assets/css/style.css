@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main-section {
+    margin: 20px;
+}
+
+.image-container {
+    width: 800px;
+    height: 500px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h3 {
+    font-family: "Prata", serif;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+p a {
+    font-weight: 600;
+    font-style: italic;
+}
+
+h6 {
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 6px 22px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+
+
+.amalfi h6 {
+    background: linear-gradient(45deg, #037cc1, #ffffff)
+}
+
+.amalfi a:visited {
+    color: #037CC1;
+}
+
+
+.positano h6 {
+    background: linear-gradient(45deg, #f2c975, #ffffff)
+}
+
+.positano a:visited {
+    color: #f2c975;
+}
+
+
+.praiano h6 {
+    background: linear-gradient(45deg, #79b16f, #ffffff)
+}
+
+.praiano a:visited {
+    color: #79b16f;
+}
+
+
+.maiori h6 {
+    background: linear-gradient(45deg, #5f9c8f, #ffffff)
+}
+
+.maiori a:visited {
+    color: #5f9c8f;
+}
+
+
+.atrani h6 {
+    background: linear-gradient(45deg, #c7b493, #ffffff)
+}
+
+.atrani a:visited {
+    color: #c7b493;
+}
+
+
+.cetara h6 {
+    background: linear-gradient(45deg, #ffa200, #ffffff)
+}
+
+.cetara a:visited {
+    color: #ffa200;
+}
+
+
+footer {
+    background-color: black;
+    padding: 16px;
+    text-align: center;
+}
+
+footer a {
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: #037CC1;
+}
